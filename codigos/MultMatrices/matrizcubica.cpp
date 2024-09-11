@@ -1,4 +1,3 @@
-// C++ program to multiply two matrices
 
 #include <bits/stdc++.h>
 using namespace std;
