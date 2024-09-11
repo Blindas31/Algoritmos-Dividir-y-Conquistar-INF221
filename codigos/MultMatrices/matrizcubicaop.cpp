@@ -99,4 +99,6 @@ int main() {
     std::cout << "El algoritmo tardó: " << duracion.count() << " ms" << std::endl;
     return 0;
 }
+//Este algoritmo se realizo utilizando el mismo codigo de la tradicional. Agregando la función para transponer la segunda matriz y modificando la forma en que se acceden a los elementos
+//de la segunda matriz para la multiplicacion
 //https://www.geeksforgeeks.org/c-program-multiply-two-matrices/
