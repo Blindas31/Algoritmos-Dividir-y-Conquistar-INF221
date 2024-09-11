@@ -1,12 +1,9 @@
-// CPP program to implement Strassen’s Matrix
-// Multiplication Algorithm
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef int lld;
 const int N = 512;
  
-/* Strassen's Algorithm for matrix multiplication
-Complexity: O(n^2.808) */
  
 inline lld** MatrixMultiply(lld** a, lld** b, int n,
                                     int l, int m)
