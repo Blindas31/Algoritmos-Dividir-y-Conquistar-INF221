@@ -3,8 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Edit MACROs here, according to your Matrix Dimensions for
-// mat1[R1][C1] and mat2[R2][C2]
+// Definición de dimensiones de las matrices A[R1][C1] y B[R2][C2]
 #define R1 100 // number of rows in Matrix-1
 #define C1 16384 // number of columns in Matrix-1
 #define R2 16384 // number of rows in Matrix-2
