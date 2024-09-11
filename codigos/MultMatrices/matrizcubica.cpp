@@ -3,8 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Edit MACROs here, according to your Matrix Dimensions for
-// mat1[R1][C1] and mat2[R2][C2]
+// Definición de dimensiones de las matrices A y B
 #define R1 100 // number of rows in Matrix-1
 #define C1 16384 // number of columns in Matrix-1
 #define R2 16384 // number of rows in Matrix-2
@@ -14,7 +13,7 @@ using namespace std;
 void mulMat(int** mat1, int** mat2,int** rslt)
 {
     //Realiza la multiplicacion tradicional de matrices mediante tres ciclos for anidados. Logrando simular el comportamiento
-    //de mutliplicacion que conocemos "fila por columna"
+    //de mutliplicacion que conocemos, "fila por columna"
     for (int i = 0; i < R1; i++) {
         for (int j = 0; j < C2; j++) {
             rslt[i][j] = 0;
